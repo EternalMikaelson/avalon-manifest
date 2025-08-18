@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Remotes -->
+  <!-- 🌐 Remotes -->
   <remote name="avalon" fetch="https://github.com/AOSP-Avalon/" />
   <remote name="amanraj" fetch="https://github.com/amanrajOO7/" />
   <remote name="personal" fetch="https://github.com/EternalMikaelson/" />
+  <remote name="clover" fetch="https://github.com/The-Clover-Project/" />
 
   <!-- 🧬 Device Trees -->
   <project name="device_oneplus_avalon"
@@ -64,6 +65,47 @@
   <project name="hardware_dolby"
            path="hardware_dolby"
            remote="avalon"
+           revision="16" />
+
+  <!-- 🍀 Clover ROM Core -->
+  <project name="vendor_clover"
+           path="vendor/clover"
+           remote="clover"
+           revision="16" />
+
+  <project name="packages_apps_Updater"
+           path="packages/apps/Updater"
+           remote="clover"
+           revision="16" />
+
+  <project name="packages_apps_Settings"
+           path="packages/apps/Settings"
+           remote="clover"
+           revision="16" />
+
+  <project name="frameworks_base"
+           path="frameworks/base"
+           remote="clover"
+           revision="16" />
+
+  <project name="frameworks_av"
+           path="frameworks/av"
+           remote="clover"
+           revision="16" />
+
+  <project name="device_qcom_sepolicy_vndr"
+           path="device/qcom/sepolicy_vndr"
+           remote="clover"
+           revision="16" />
+
+  <project name="build_soong"
+           path="build/soong"
+           remote="clover"
+           revision="16" />
+
+  <project name="build_release"
+           path="build/release"
+           remote="clover"
            revision="16" />
 
 </manifest>

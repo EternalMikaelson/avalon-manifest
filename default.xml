@@ -86,7 +86,7 @@
   <project name="frameworks_base"
            path="frameworks/base"
            remote="clover"
-           revision="16-legacy-um" />
+           revision="16" />
 
   <project name="frameworks_av"
            path="frameworks/av"
@@ -96,7 +96,7 @@
   <project name="device_qcom_sepolicy_vndr"
            path="device/qcom/sepolicy_vndr"
            remote="clover"
-           revision="16" />
+           revision="16-legacy-um" />
 
   <project name="build_soong"
            path="build/soong"

@@ -1,22 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <!-- Remotes -->
   <remote name="avalon" fetch="https://github.com/AOSP-Avalon/" />
+  <remote name="amanraj" fetch="https://github.com/amanrajOO7/" />
 
-  <!-- Device Trees -->
-  <project name="device_oneplus_avalon" path="device/oneplus/avalon" remote="avalon" revision="16" />
-  <project name="device_oneplus_sm7675-common" path="device/oneplus/sm7675-common" remote="avalon" revision="16" />
+  <!-- 🧬 Device Trees -->
+  <project name="device_oneplus_avalon"
+           path="device/oneplus/avalon"
+           remote="avalon"
+           revision="16" />
 
-  <!-- Vendor Trees -->
-  <project name="vendor_oneplus_avalon" path="vendor/oneplus/avalon" remote="avalon" revision="16" />
-  <project name="vendor_oneplus_sm7675-common" path="vendor/oneplus/sm7675-common" remote="avalon" revision="16" />
+  <project name="device_oneplus_sm7675-common"
+           path="device/oneplus/sm7675-common"
+           remote="avalon"
+           revision="16" />
 
-  <!-- Kernel -->
-  <project name="kernel_oneplus_sm7675" path="kernel/oneplus/sm7675" remote="avalon" revision="15" />
+  <!-- 🧬 Kernel Trees -->
+  <project name="kernel_oneplus_sm7675"
+           path="kernel/oneplus/sm7675"
+           remote="amanraj"
+           revision="16" />
 
-  <!-- HALs -->
-  <project name="hardware_oplus" path="hardware/oplus" remote="avalon" revision="16" />
-  <project name="hardware_dolby" path="hardware/dolby" remote="avalon" revision="16" />
+  <project name="kernel_oneplus_sm7675-common"
+           path="kernel/oneplus/sm7675-common"
+           remote="amanraj"
+           revision="16" />
 
-  <!-- WFD Support -->
-  <project name="proprietary_vendor_qcom_wfd" path="vendor/qcom/wfd" remote="avalon" revision="16" />
+  <!-- 🧩 Proprietary Vendor Trees -->
+  <project name="proprietary_vendor_oneplus_avalon"
+           path="vendor/oneplus/avalon/proprietary"
+           remote="amanraj"
+           revision="16" />
+
+  <project name="proprietary_vendor_oneplus_sm7675-common"
+           path="vendor/oneplus/sm7675-common/proprietary"
+           remote="amanraj"
+           revision="16" />
+
+  <!-- 🔧 HALs -->
+  <project name="hardware_oplus"
+           path="hardware/oplus"
+           remote="avalon"
+           revision="16" />
+
+  <project name="hardware_dolby"
+           path="hardware/dolby"
+           remote="avalon"
+           revision="16" />
+
 </manifest>

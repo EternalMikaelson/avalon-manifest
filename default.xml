@@ -2,19 +2,18 @@
 <manifest>
 
   <!-- Remotes -->
-  <remote name="avalon" fetch="https://github.com/AOSP-Avalon/" />
   <remote name="amanraj" fetch="https://github.com/amanrajOO7/" />
   <remote name="personal" fetch="https://github.com/EternalMikaelson/" />
 
   <!-- 🧬 Device Trees -->
-  <project name="device_oneplus_avalon"
+  <project name="androiddeviceoneplus_avalon"
            path="device/oneplus/avalon"
-           remote="avalon"
+           remote="amanraj"
            revision="16" />
 
-  <project name="device_oneplus_sm7675-common"
+  <project name="androiddeviceoneplus_sm7675-common"
            path="device/oneplus/sm7675-common"
-           remote="avalon"
+           remote="amanraj"
            revision="16" />
 
   <!-- 🧬 Kernel Trees (SM8650 Platform) -->
@@ -56,14 +55,14 @@
            revision="16" />
 
   <!-- 🔧 HALs -->
-  <project name="hardware_oplus"
+  <project name="androidhardwareoplus"
            path="hardware/oplus"
-           remote="avalon"
+           remote="amanraj"
            revision="16" />
 
   <project name="hardware_dolby"
            path="hardware/dolby"
-           remote="avalon"
+           remote="amanraj"
            revision="16" />
 
 </manifest>

@@ -8,61 +8,61 @@
 
   <!-- 🧬 Device Trees -->
   <project name="device_oneplus_avalon"
-           path="device/oneplus/avalon"
+           path="device_oneplus_avalon"
            remote="avalon"
            revision="16" />
 
   <project name="device_oneplus_sm7675-common"
-           path="device/oneplus/sm7675-common"
+           path="device_oneplus_sm7675-common"
            remote="avalon"
            revision="16" />
 
   <!-- 🧬 Kernel Trees (SM8650 Platform) -->
   <project name="android_kernel_oneplus_sm8650"
-           path="kernel/oneplus/sm8650"
+           path="android_kernel_oneplus_sm8650"
            remote="amanraj"
            revision="15.2" />
 
   <project name="android_kernel_oneplus_sm8650-devicetrees"
-           path="kernel/oneplus/sm8650-devicetrees"
+           path="android_kernel_oneplus_sm8650-devicetrees"
            remote="amanraj"
            revision="16" />
 
   <project name="android_kernel_oneplus_sm8650-modules"
-           path="kernel/oneplus/sm8650-modules"
+           path="android_kernel_oneplus_sm8650-modules"
            remote="amanraj"
            revision="15.2" />
 
   <!-- 🧩 Proprietary Vendor Trees -->
   <project name="proprietary_vendor_oneplus_avalon"
-           path="vendor/oneplus/avalon/proprietary"
+           path="proprietary_vendor_oneplus_avalon"
            remote="amanraj"
            revision="16" />
 
   <project name="proprietary_vendor_oneplus_sm7675-common"
-           path="vendor/oneplus/sm7675-common/proprietary"
+           path="proprietary_vendor_oneplus_sm7675-common"
            remote="amanraj"
            revision="16" />
 
   <!-- 🧩 Vendor Trees with Blobs -->
   <project name="vendor_oneplus_avalon"
-           path="vendor/oneplus/avalon"
+           path="vendor_oneplus_avalon"
            remote="personal"
            revision="16" />
 
   <project name="vendor_oneplus_sm7675_common"
-           path="vendor/oneplus/sm7675-common"
+           path="vendor_oneplus_sm7675_common"
            remote="personal"
            revision="16" />
 
   <!-- 🔧 HALs -->
   <project name="hardware_oplus"
-           path="hardware/oplus"
+           path="hardware_oplus"
            remote="avalon"
            revision="16" />
 
   <project name="hardware_dolby"
-           path="hardware/dolby"
+           path="hardware_dolby"
            remote="avalon"
            revision="16" />
 

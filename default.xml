@@ -4,6 +4,7 @@
   <!-- Remotes -->
   <remote name="avalon" fetch="https://github.com/AOSP-Avalon/" />
   <remote name="amanraj" fetch="https://github.com/amanrajOO7/" />
+  <remote name="personal" fetch="https://github.com/EternalMikaelson/" />
 
   <!-- 🧬 Device Trees -->
   <project name="device_oneplus_avalon"
@@ -16,16 +17,21 @@
            remote="avalon"
            revision="16" />
 
-  <!-- 🧬 Kernel Trees -->
-  <project name="kernel_oneplus_sm7675"
-           path="kernel/oneplus/sm7675"
+  <!-- 🧬 Kernel Trees (SM8650 Platform) -->
+  <project name="android_kernel_oneplus_sm8650"
+           path="kernel/oneplus/sm8650"
+           remote="amanraj"
+           revision="15.2" />
+
+  <project name="android_kernel_oneplus_sm8650-devicetrees"
+           path="kernel/oneplus/sm8650-devicetrees"
            remote="amanraj"
            revision="16" />
 
-  <project name="kernel_oneplus_sm7675-common"
-           path="kernel/oneplus/sm7675-common"
+  <project name="android_kernel_oneplus_sm8650-modules"
+           path="kernel/oneplus/sm8650-modules"
            remote="amanraj"
-           revision="16" />
+           revision="15.2" />
 
   <!-- 🧩 Proprietary Vendor Trees -->
   <project name="proprietary_vendor_oneplus_avalon"
@@ -36,6 +42,17 @@
   <project name="proprietary_vendor_oneplus_sm7675-common"
            path="vendor/oneplus/sm7675-common/proprietary"
            remote="amanraj"
+           revision="16" />
+
+  <!-- 🧩 Vendor Trees with Blobs -->
+  <project name="vendor_oneplus_avalon"
+           path="vendor/oneplus/avalon"
+           remote="personal"
+           revision="16" />
+
+  <project name="vendor_oneplus_sm7675_common"
+           path="vendor/oneplus/sm7675-common"
+           remote="personal"
            revision="16" />
 
   <!-- 🔧 HALs -->

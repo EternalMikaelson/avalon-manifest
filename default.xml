@@ -54,7 +54,7 @@
   <project name="vendor_oneplus_sm7675_common"
            path="vendor_oneplus_sm7675_common"
            remote="personal"
-           revision="16" />
+           revision="main" />
 
   <!-- 🔧 HALs -->
   <project name="hardware_oplus"

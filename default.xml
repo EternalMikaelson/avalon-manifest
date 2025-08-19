@@ -6,69 +6,70 @@
   <remote name="amanraj" fetch="https://github.com/amanrajOO7/" />
   <remote name="personal" fetch="https://github.com/EternalMikaelson/" />
   <remote name="clover" fetch="https://github.com/The-Clover-Project/" />
+  <remote name="stuffbykoko" fetch="https://github.com/stuffbykoko/" /> <!-- 🆕 Added -->
 
   <!-- 🧬 Device Trees -->
-  <project name="device_oneplus_avalon"
-           path="device_oneplus_avalon"
+  <project name="deviceoneplusavalon"
+           path="deviceoneplusavalon"
            remote="avalon"
            revision="16" />
 
-  <project name="device_oneplus_sm7675-common"
-           path="device_oneplus_sm7675-common"
+  <project name="deviceoneplussm7675-common"
+           path="deviceoneplussm7675-common"
            remote="avalon"
            revision="16" />
 
   <!-- 🧬 Kernel Trees (SM8650 Platform) -->
-  <project name="android_kernel_oneplus_sm8650"
-           path="android_kernel_oneplus_sm8650"
+  <project name="androidkerneloneplus_sm8650"
+           path="androidkerneloneplus_sm8650"
            remote="amanraj"
            revision="15.2" />
 
-  <project name="android_kernel_oneplus_sm8650-devicetrees"
-           path="android_kernel_oneplus_sm8650-devicetrees"
+  <project name="androidkerneloneplus_sm8650-devicetrees"
+           path="androidkerneloneplus_sm8650-devicetrees"
            remote="amanraj"
            revision="16" />
 
-  <project name="android_kernel_oneplus_sm8650-modules"
-           path="android_kernel_oneplus_sm8650-modules"
+  <project name="androidkerneloneplus_sm8650-modules"
+           path="androidkerneloneplus_sm8650-modules"
            remote="amanraj"
            revision="15.2" />
 
   <!-- 🧬 Kernel Trees (SM7675 Platform) -->
-  <project name="device_oneplus_sm7675-kernel"
-           path="device_oneplus_sm7675-kernel"
+  <project name="deviceoneplussm7675-kernel"
+           path="deviceoneplussm7675-kernel"
            remote="avalon"
            revision="15" />
 
-  <project name="kernel_oneplus_sm7675"
-           path="kernel_oneplus_sm7675"
+  <project name="kerneloneplussm7675"
+           path="kerneloneplussm7675"
            remote="avalon"
            revision="15" />
 
-  <project name="kernel_oneplus_sm7675-devicetrees"
-           path="kernel_oneplus_sm7675-devicetrees"
+  <project name="kerneloneplussm7675-devicetrees"
+           path="kerneloneplussm7675-devicetrees"
            remote="avalon"
            revision="15" />
 
   <!-- 🧩 Proprietary Vendor Trees -->
-  <project name="proprietary_vendor_oneplus_avalon"
-           path="proprietary_vendor_oneplus_avalon"
+  <project name="proprietaryvendoroneplus_avalon"
+           path="proprietaryvendoroneplus_avalon"
            remote="amanraj"
            revision="16" />
 
-  <project name="proprietary_vendor_oneplus_sm7675-common"
-           path="proprietary_vendor_oneplus_sm7675-common"
+  <project name="proprietaryvendoroneplus_sm7675-common"
+           path="proprietaryvendoroneplus_sm7675-common"
            remote="amanraj"
            revision="16" />
 
   <!-- 🧩 Vendor Trees with Blobs -->
-  <project name="vendor_oneplus_avalon"
-           path="vendor_oneplus_avalon"
+  <project name="vendoroneplusavalon"
+           path="vendoroneplusavalon"
            remote="personal"
            revision="16" />
 
-  <project name="vendor_oneplus_sm7675_common"
-           path="vendor_oneplus_sm7675_common"
+  <project name="vendoroneplussm7675_common"
+           path="vendoroneplussm7675_common"
            remote="personal"
            revision="16" />
 
@@ -89,12 +90,12 @@
            remote="clover"
            revision="16" />
 
-  <project name="packages_apps_Updater"
+  <project name="packagesappsUpdater"
            path="packages/apps/Updater"
            remote="clover"
            revision="16" />
 
-  <project name="packages_apps_Settings"
+  <project name="packagesappsSettings"
            path="packages/apps/Settings"
            remote="clover"
            revision="16" />
@@ -109,7 +110,7 @@
            remote="clover"
            revision="16" />
 
-  <project name="device_qcom_sepolicy_vndr"
+  <project name="deviceqcomsepolicy_vndr"
            path="device/qcom/sepolicy_vndr"
            remote="clover"
            revision="16-legacy-um" />
@@ -123,5 +124,16 @@
            path="build/release"
            remote="clover"
            revision="16" />
+
+  <!-- 🆕 Added Projects -->
+  <project name="androidhardwareqcom-caf_common"
+           path="hardware/qcom-caf/common"
+           remote="stuffbykoko"
+           revision="lineage-22.2" />
+
+  <project name="deviceoneplusavalon-prebuilt"
+           path="device/oneplus/avalon-prebuilt"
+           remote="stuffbykoko"
+           revision="fifteen" />
 
 </manifest>

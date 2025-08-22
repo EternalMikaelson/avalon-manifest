@@ -55,19 +55,19 @@
            path="hardware/dolby"
            remote="amanraj"
            revision="16" />
-
+  
   <project name="androidkerneloneplus_sm8650"
-           path="androidkerneloneplus_sm8650"
+           path="kernel/oneplus/sm8650"
            remote="amanraj"
            revision="15.2" />
 
   <project name="androidkerneloneplus_sm8650-devicetrees"
-           path="androidkerneloneplus_sm8650-devicetrees"
+           path="device/oneplus/sm8650-kernel"
            remote="amanraj"
            revision="16" />
-
+ 
   <project name="androidkerneloneplus_sm8650-modules"
-           path="androidkerneloneplus_sm8650-modules"
+           path="vendor/oneplus/sm8650-modules"
            remote="amanraj"
            revision="15.2" />
 

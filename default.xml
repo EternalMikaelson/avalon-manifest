@@ -2,10 +2,8 @@
 <manifest>
 
   <!-- 🌐 Remotes -->
-  <remote name="avalon" fetch="https://github.com/AOSP-Avalon/" />
   <remote name="amanraj" fetch="https://github.com/amanrajOO7/" />
   <remote name="personal" fetch="https://github.com/EternalMikaelson/" />
-  <remote name="stuffbykoko" fetch="https://github.com/stuffbykoko/" />
 
   <!-- 🧬 Device Trees -->
   <project name="device_oneplus_avalon"

@@ -50,11 +50,6 @@
            remote="personal"
            revision="16" />
 
-  <project name="hardware_qcom-caf_common"
-           path="hardware/qcom-caf/common"
-           remote="personal"
-           revision="16" />
-
   <!-- 🧩 Retained Projects -->
   <project name="hardware_dolby"
            path="hardware/dolby"

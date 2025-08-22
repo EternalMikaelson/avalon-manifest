@@ -5,21 +5,64 @@
   <remote name="avalon" fetch="https://github.com/AOSP-Avalon/" />
   <remote name="amanraj" fetch="https://github.com/amanrajOO7/" />
   <remote name="personal" fetch="https://github.com/EternalMikaelson/" />
-  <remote name="clover" fetch="https://github.com/The-Clover-Project/" />
   <remote name="stuffbykoko" fetch="https://github.com/stuffbykoko/" />
 
   <!-- 🧬 Device Trees -->
-  <project name="android_device_oneplus_avalon"
+  <project name="device_oneplus_avalon"
            path="device/oneplus/avalon"
-           remote="amanraj"
+           remote="personal"
            revision="16" />
 
-  <project name="android_device_oneplus_sm7675-common"
+  <project name="device_oneplus_sm7675-common"
            path="device/oneplus/sm7675-common"
+           remote="personal"
+           revision="16" />
+
+  <!-- 🧬 Prebuilt Device Tree -->
+  <project name="device_oneplus_avalon-prebuilt"
+           path="device/oneplus/avalon-prebuilt"
+           remote="personal"
+           revision="16" />
+
+  <!-- 🧬 Kernel Trees -->
+  <project name="android_kernel_oneplus_sm7675"
+           path="kernel/oneplus/sm7675"
+           remote="personal"
+           revision="16" />
+
+  <project name="device_oneplus_sm7675-kernel"
+           path="device/oneplus/sm7675-kernel"
+           remote="personal"
+           revision="16" />
+
+  <!-- 🧩 Vendor Trees -->
+  <project name="vendor_oneplus_avalon"
+           path="vendor/oneplus/avalon"
+           remote="personal"
+           revision="16" />
+
+  <project name="vendor_oneplus_sm7675_common"
+           path="vendor/oneplus/sm7675_common"
+           remote="personal"
+           revision="16" />
+
+  <!-- 🔧 HALs -->
+  <project name="hardware_oplus"
+           path="hardware/oplus"
+           remote="personal"
+           revision="16" />
+
+  <project name="hardware_qcom-caf_common"
+           path="hardware/qcom-caf/common"
+           remote="personal"
+           revision="16" />
+
+  <!-- 🧩 Retained Projects -->
+  <project name="hardware_dolby"
+           path="hardware/dolby"
            remote="amanraj"
            revision="16" />
 
-  <!-- 🧬 Kernel Trees (SM8650 Platform) -->
   <project name="androidkerneloneplus_sm8650"
            path="androidkerneloneplus_sm8650"
            remote="amanraj"
@@ -34,106 +77,5 @@
            path="androidkerneloneplus_sm8650-modules"
            remote="amanraj"
            revision="15.2" />
-
-  <!-- 🧬 Kernel Trees (SM7675 Platform) -->
-  <project name="deviceoneplussm7675-kernel"
-           path="deviceoneplussm7675-kernel"
-           remote="avalon"
-           revision="15" />
-
-  <project name="kerneloneplussm7675"
-           path="kerneloneplussm7675"
-           remote="avalon"
-           revision="15" />
-
-  <project name="kerneloneplussm7675-devicetrees"
-           path="kerneloneplussm7675-devicetrees"
-           remote="avalon"
-           revision="15" />
-
-  <!-- 🧩 Proprietary Vendor Trees -->
-  <project name="proprietaryvendoroneplus_avalon"
-           path="proprietaryvendoroneplus_avalon"
-           remote="amanraj"
-           revision="16" />
-
-  <project name="proprietaryvendoroneplus_sm7675-common"
-           path="proprietaryvendoroneplus_sm7675-common"
-           remote="amanraj"
-           revision="16" />
-
-  <!-- 🧩 Vendor Trees with Blobs -->
-  <project name="vendoroneplusavalon"
-           path="vendoroneplusavalon"
-           remote="personal"
-           revision="16" />
-
-  <project name="vendoroneplussm7675_common"
-           path="vendoroneplussm7675_common"
-           remote="personal"
-           revision="16" />
-
-  <!-- 🔧 HALs -->
-  <project name="hardware_oplus"
-           path="hardware/oplus"
-           remote="stuffbykoko"
-           revision="lineage-22.2" />
-
-  <project name="hardware_dolby"
-           path="hardware/dolby"
-           remote="amanraj"
-           revision="16" />
-
-  <!-- 🍀 Clover ROM Core -->
-  <project name="vendor_clover"
-           path="vendor/clover"
-           remote="clover"
-           revision="16" />
-
-  <project name="packagesappsUpdater"
-           path="packages/apps/Updater"
-           remote="clover"
-           revision="16" />
-
-  <project name="packagesappsSettings"
-           path="packages/apps/Settings"
-           remote="clover"
-           revision="16" />
-
-  <project name="frameworks_base"
-           path="frameworks/base"
-           remote="clover"
-           revision="16" />
-
-  <project name="frameworks_av"
-           path="frameworks/av"
-           remote="clover"
-           revision="16" />
-
-  <project name="deviceqcomsepolicy_vndr"
-           path="device/qcom/sepolicy_vndr"
-           remote="clover"
-           revision="16-legacy-um" />
-
-  <project name="build_soong"
-           path="build/soong"
-           remote="clover"
-           revision="16" />
-
-  <project name="build_release"
-           path="build/release"
-           remote="clover"
-           revision="16" />
-
-  <!-- 🆕 Added Projects -->
-  <project name="androidhardwareqcom-caf_common"
-           path="hardware/qcom-caf/common"
-           remote="stuffbykoko"
-           revision="lineage-22.2" />
-
-  <project name="deviceoneplusavalon-prebuilt"
-           path="device/oneplus/avalon-prebuilt"
-           remote="stuffbykoko"
-           revision="fifteen" />
 
 </manifest>

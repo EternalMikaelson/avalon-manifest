@@ -2,7 +2,6 @@
 <manifest>
 
   <!-- 🌐 Remotes -->
-  <remote name="amanraj" fetch="https://github.com/amanrajOO7/" />
   <remote name="personal" fetch="https://github.com/EternalMikaelson/" />
 
   <!-- 🧬 Device Trees -->
@@ -22,7 +21,7 @@
            remote="personal"
            revision="16" />
 
-  <!-- 🧬 Kernel Trees -->
+  <!-- 🧬 Kernel Trees (SM7675) -->
   <project name="android_kernel_oneplus_sm7675"
            path="kernel/oneplus/sm7675"
            remote="personal"
@@ -30,6 +29,22 @@
 
   <project name="device_oneplus_sm7675-kernel"
            path="device/oneplus/sm7675-kernel"
+           remote="personal"
+           revision="16" />
+
+  <!-- 🧬 Kernel Trees (SM8650) -->
+  <project name="kernel_oneplus_sm8650"
+           path="kernel/oneplus/sm8650"
+           remote="personal"
+           revision="16" />
+
+  <project name="kernel_oneplus_sm8650-devicetrees"
+           path="kernel/oneplus/sm8650-devicetrees"
+           remote="personal"
+           revision="16" />
+
+  <project name="kernel_oneplus_sm8650-modules"
+           path="kernel/oneplus/sm8650-modules"
            remote="personal"
            revision="16" />
 
@@ -50,25 +65,14 @@
            remote="personal"
            revision="16" />
 
-  <!-- 🧩 Retained Projects -->
+  <project name="hardware_qcom-caf_common"
+           path="hardware/qcom-caf/common"
+           remote="personal"
+           revision="16" />
+
   <project name="hardware_dolby"
            path="hardware/dolby"
-           remote="amanraj"
+           remote="personal"
            revision="16" />
-  
-  <project name="androidkerneloneplus_sm8650"
-           path="kernel/oneplus/sm8650"
-           remote="amanraj"
-           revision="15.2" />
-
-  <project name="androidkerneloneplus_sm8650-devicetrees"
-           path="device/oneplus/sm8650-kernel"
-           remote="amanraj"
-           revision="16" />
- 
-  <project name="androidkerneloneplus_sm8650-modules"
-           path="vendor/oneplus/sm8650-modules"
-           remote="amanraj"
-           revision="15.2" />
 
 </manifest>

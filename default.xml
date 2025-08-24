@@ -22,11 +22,6 @@
            revision="16" />
 
   <!-- 🧬 Kernel Trees (SM7675) -->
-  <project name="android_kernel_oneplus_sm7675"
-           path="kernel/oneplus/sm7675"
-           remote="personal"
-           revision="16" />
-
   <project name="device_oneplus_sm7675-kernel"
            path="device/oneplus/sm7675-kernel"
            remote="personal"
@@ -62,11 +57,6 @@
   <!-- 🔧 HALs -->
   <project name="hardware_oplus"
            path="hardware/oplus"
-           remote="personal"
-           revision="16" />
-
-  <project name="hardware_qcom-caf_common"
-           path="hardware/qcom-caf/common"
            remote="personal"
            revision="16" />
 
